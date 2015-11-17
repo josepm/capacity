@@ -1,0 +1,5 @@
+{
+  "servers": [[64], "list", null],
+  "think_time": [1.0, "float", null],
+  "processing_time": [[0.05], "list", null]
+}
