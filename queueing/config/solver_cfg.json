@@ -1,0 +1,17 @@
+{
+    "reuse": false,
+    "verbose": true,
+    "num_customers": 50,
+    "servers": null,
+    "_sla_obj": {
+        "max_abn_prob": 0.05,
+        "wait_thres": 2,
+        "sla_q": 0.85,
+        "max_occ": 1.0
+    },
+    "notes": {
+        "num_customers": "number of customers to simulate per server (about 100 to 1000)",
+        "servers": "None or the number of servers in the queue",
+        "sla_obj": "sla info. wait thres is in minutes"
+    }
+}
