@@ -1,0 +1,34 @@
+{
+    "reuse": false,
+    "verbose": true,
+    "num_customers": 1000,
+    "customer_classes":  2,
+    "inter_arr": [0.019212808539026016, 0.04],
+    "sla_obj": [
+      {"max_abn_prob": 0.05, "wait_thres": 2, "sla_q": 0.85, "max_occ": 0.8 },
+      {"max_abn_prob": 0.001, "wait_thres": 3600, "sla_q": 0.95, "max_occ": 0.8 }
+    ],
+    "svc": [
+      {"distribution": "f", "params": [ 8.974720685759934, 38.123492113056415, 0.0, 8.771023415378473 ], "avg": 9.422367464513638 },
+      {"distribution": "f", "params": [ 8.974720685759934, 38.123492113056415, 0.0, 8.771023415378473 ], "avg": 9.422367464513638 }
+    ],
+    "notes": {
+        "num_customers": "number of customers to simulate",
+        "inter_arr": "time between customer arrivals. Assumed exponential",
+        "sla_obj": "sla info. wait thres is in minutes",
+        "svc, tta": "models for svc time and tta. All in minutes",
+        "info": ""
+    },
+    "tta": [
+      {"distribution": "genpareto", "params": [ -1.3047002943489674, 0.0, 105.15779538735688 ], "avg": 43.70630304631546 },
+      {"distribution": "genpareto", "params": [ -1.3047002943489674, 0.0, 105.15779538735688 ], "avg": 43.70630304631546 }
+    ],
+    "info": {
+        "key": "language:English_NA",
+        "fcast_date": "2018-04-30",
+        "ds": "2018-04-06",
+        "int/min": [52.05, 25],
+        "int_hbat": [9.42, 9.42],
+        "avg_tta": [43.71, 43.71]
+    }
+}
